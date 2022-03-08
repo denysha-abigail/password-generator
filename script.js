@@ -17,8 +17,29 @@ length = window.prompt("How long would you like your password to be? Choose betw
     low = window.confirm("Would you like your password to contain lower-case letters?");
     cap = window.confirm("Would you like your password to contain upper-case letters?");
   }
+
+  if (cap) {
+    temp += alpha.toUpperCase();
+  };
+
+  if (low) {
+    temp += alpha;
+  }
+
+  if (char) {
+    temp += special;
+  }
+
+  if (num) {
+    temp += number;
+  };
+
 }
-start();
+
+for (let i = 0; i < length; i++) {
+  password += temp[Math.floor(Math.random()*temp.length)];
+}
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
