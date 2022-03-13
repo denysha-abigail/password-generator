@@ -18,4 +18,4 @@ Access P@$sW0rd! [here](https://denysha-abigail.github.io/password-generator/)
 [Xander Rapstine](https://github.com/coding-boot-camp/friendly-parakeet)
 
 ## Contributors:
-*Denysha Guerrios-Armaiz, 02/2022*
+*Denysha Guerrios-Armaiz, 03/2022*
