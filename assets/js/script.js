@@ -1,4 +1,4 @@
-// Establish global variables
+// Create global variables
 var char, num, low, cap, length;
 var alpha = 'abcdefghijklmnopqrstuvwxyz';
 var special = '!@#$%^&*?';
@@ -6,15 +6,18 @@ var number = '0123456789';
 var temp = '';
 var password = '';
 
-// Get references to the #generate element
+// Get references to #generate element
 var generateBtn = document.querySelector("#generate");
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+// Get references to #password 
+var securePass = document.getElementById("password");
+
 // Write password to the #password input
 function writePassword() {
-    document.querySelector("#password").value = start();
+    securePass.value = start();
 }
 
 // Prompt user to choose password criteria
@@ -53,3 +56,4 @@ var start = function () {
 
     return password;
 }
+
