@@ -1,26 +1,21 @@
-# password-generator
+# P@$sW0rd!
 
-GIVEN I need a new, secure password
+## Beta Version 0.01
 
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
+## Features:
+Random password generator built with HTML, CSS, and JavaScript
 
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
+## How to Use:
+> Click the red Generate Password button and choose a password length between 8-128 characters when the dialog box appears at the top of your screen. Once a password length is inputted and meets acceptable criteria, answer subsequent prompts in order to generate your new secure password based on your specifications.
 
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
+## Website:
+Access P@$sW0rd! [here](https://denysha-abigail.github.io/password-generator/)
 
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+## Preview:
+![screenshot](/assets/images/password-generator.png)
 
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
+## Credits:
+[Xander Rapstine](https://github.com/coding-boot-camp/friendly-parakeet)
 
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-
-Create an application an employee can use to generate a random password based on criteria they’ve selected
+## Contributors:
+*Denysha Guerrios-Armaiz, 02/2022*
