@@ -34,6 +34,11 @@ var start = function () {
         cap = window.confirm("Would you like your password to contain upper-case letters?");
     }
 
+    if (!char && !num && !low && !cap) {
+        window.alert("You need to select at least one character option! Please try again.")
+        start();
+    }
+
     if (cap) {
         temp += alpha.toUpperCase();
     };
@@ -51,7 +56,7 @@ var start = function () {
     };
 
     for (let i = 0; i < length; i++) {
-        password += temp[Math.floor(Math.random()*temp.length)];      
+        password += temp[Math.floor(Math.random() * temp.length)];
     }
 
     return password;
